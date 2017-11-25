@@ -35,7 +35,22 @@ margin:0px 210px 20px 170px;
 border:1px solid black;
 padding:10px;
 z-index:3;} 
-
+a:link { 
+color:#DCDCDC;
+text-decoration:underline; 
+} 
+a:visited { 
+color:	#DCDCDC; 
+text-decoration:none; 
+} 
+a:hover { 
+color:#000000; 
+text-decoration:none; 
+} 
+a:active { 
+color:#DCDCDC; 
+text-decoration:none; 
+} 
 </style>
 
 <head>
@@ -44,10 +59,10 @@ z-index:3;}
                 <h1>TEACH U WEB</h1>  
    </div>  
  <div class="sidebar">  
-                    <h1>HTML</h1>  
-                    <h1>XHTML</h1>  
-                    <h1>HTML5</h1>  
-                    <h1>CSS</h1>
+                    <a href="https://megurokawa.github.io/html/" target="_blank"><p>HTML</p></a> 
+                    <a href="https://megurokawa.github.io/html5/" target="_blank"><p>XHTML</p></a>
+                    <a href="https://megurokawa.github.io/xhtml/" target="_blank"><p>HTML5</p></a>
+                    <a href="https://megurokawa.github.io/css/" target="_blank"><p>CSS</p></a>
    </div>
 <div class="content"> 
 <h2> HTML TUTORIAL</h2>
@@ -105,7 +120,7 @@ show to the users.</li>
 <div style="width:90%;border:1px solid black;padding:5px;margin:20px">&lt;h1&gt;This is a heading.&lt;/h1&gt;</div>
 <div style="width:90%;border:1px solid black;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
 <div style="width:90%;border:1px solid black;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
-</div>
+
 &lt;/body&gt;
 </div>
 &lt;/html&gt;
@@ -117,10 +132,10 @@ show to the users.</li>
 
 <h3>HTML Version</h3>
 <p>Since the appearence of Internet,lots of versions of HTML were born:</p>
-<table>
+<table  align="center" ;>
 	<tbody><tr>
-		<th>版本</th>
-		<th>发布时间</th>
+		<th>version</th>
+		<th>published in</th>
 	</tr>
 	<tr>
 		<td>HTML</td>
@@ -131,33 +146,54 @@ show to the users.</li>
 		<td>1993</td>
 	</tr>
 	<tr>
-		<td>HTML 2.0</td>
+		<td>HTML2.0   </td>
 		<td>1995</td>
 	</tr>
 	<tr>
-		<td>HTML 3.2</td>
+		<td>HTML3.2   </td>
 		<td>1997</td>
 	</tr>
 	<tr>
-		<td>HTML 4.01</td>
+		<td>HTML4.01  </td>
 		<td>1999</td>
 	</tr>
 	<tr>
-		<td>XHTML 1.0</td>
+		<td>XHTML1.0 </td>
 		<td>2000</td>
 	</tr>
 	<tr>
-		<td>HTML5</td>
+		<td>HTML5  </td>
 		<td>2012</td>
 	</tr>
 <tr>
-		<td>XHTML5</td>
+		<td>XHTML5  </td>
 		<td>2013</td>
 	</tr>
 
 </tbody></table>
-
+<hr>
+<h3><!DOCTYPE> Statement</h3>
+<ul>
+<li><!DOCTYPE> statement will help you to display the webpage in the browser correctly.</li>
+<li>There are many different documents in the internet,if you can state the version of HTML correctly,the browser will correctly display the content of webpage.</li>
+<li>DOCTYPE statement won't be influenced whether the words are capital or in lower case</li>
+<li>Following methods can all be used.</li>
+<div>
+&lt;!DOCTYPE html&gt;
+<br><br>
+&lt;!DOCTYPE HTML&gt;
+<br><br>
+&lt;!doctype html&gt;
+<br><br>
+&lt;!Doctype Html&gt;
+</div>
+</ul>
+<hr>
+<h3>When You Have Chinese in your Content</h3>
+<li>In most of browsers,there will be unrecognizable code in your webpage if you directly type your words in Chinese.</li>
+<li>So that you need to state your font as UTF-8 between head.</li>
 
-
+</div>
+<a href="#top" target="_self">back to the top</a>
 </body>
 </html>
